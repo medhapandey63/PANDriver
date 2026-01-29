@@ -1,17 +1,12 @@
 ### 1) Data Processing / Input Format
 ---
-To run the pipeline, your dataset should contain (at minimum):
-UniProt ID (e.g., P38398)
-Mutation in protein notation (e.g., R175H)
-Protein sequence (FASTA or as a column)
-Structure information (PDB/AlphaFold structure or path to structure file)
-Expected Input Columns (example)
-Column	Description	Example
-uniprot_id	UniProt accession	P04637
-mutation	AA substitution	R175H
-sequence	Protein sequence	MEEPQSDPSV...
-structure_path	Path to structure file	structures/P04637.pdb
-If your pipeline fetches sequences/structures automatically, clarify that here and specify what is optional vs required.
+To run the pipeline, your dataset should contain:
+  UniProt ID (e.g., P38398)
+  Mutation in protein notation (e.g., R175H)
+  Protein sequence (FASTA or as a column)
+  Structure information (AlphaFold structure or path to structure file in .pdb format)
+
+
 2) Prerequisites: Feature Calculation
 Before running the models, you must compute features using:
 scripts/feature_calculation.py
