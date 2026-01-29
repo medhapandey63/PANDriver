@@ -1,8 +1,5 @@
 # PANDriver
 A deep neural network based method that attempts to distinguish cancer driver from passenger mutations across PAN cancer. It uses associated protein's sequence, AlphaFold predicted structures, network, PSSM, and conservation based features.
-
-This repository contains scripts and pretrained cancer-specific machine learning models to classify **driver vs passenger mutations** using protein sequence-, structure-, conservation-, and network-based features.
-
 ---
 
 ## Repository Structure
