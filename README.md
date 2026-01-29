@@ -18,10 +18,11 @@ A deep neural network based method that attempts to distinguish cancer driver fr
 ├── requirements.txt
 └── README.md
 
----
-```text
+
 
 ## 1) Data Processing / Input Format
+---
+```text
 To run the pipeline, your dataset should contain (at minimum):
 UniProt ID (e.g., P38398)
 Mutation in protein notation (e.g., R175H)
