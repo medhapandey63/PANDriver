@@ -8,16 +8,17 @@ To run the pipeline, your dataset should contain:
 
 
 2) Prerequisites: Feature Calculation
-Before running the models, you must compute features using:
-scripts/feature_calculation.py
-This script calculates sequence-, structure-, and network-based features required by the pretrained models.
-Feature Modules / Dependencies
-The feature generation depends on the following tools/resources:
-protinter (protein interaction / interface-related features)
-psiCDHit (sequence clustering / homolog processing)
-AACon (conservation-based features)
-PSSM (position-specific scoring matrix features)
-IUPred2A (disorder prediction features)
-pLDDT (structure confidence features, e.g., AlphaFold)
-biographs (graph/network-based structural features)
-Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM). See below.
+  Before running the models, you must compute features using:
+  scripts/feature_calculation.py
+  This script calculates sequence-, structure-, and network-based features required by the pretrained models.
+
+    Feature Modules / Dependencies
+      The feature generation depends on the following tools/resources:
+        1. protinter (protein interaction / interface-related features)
+        2. psiCDHit (sequence clustering / homolog processing)
+        3. AACon (conservation-based features)
+        4. PSSM (position-specific scoring matrix features)
+        5. IUPred2A (disorder prediction features)
+        6. pLDDT (structure confidence features, e.g., AlphaFold)
+        7. biographs (graph/network-based structural features)
+    Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM). See below.
