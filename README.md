@@ -22,6 +22,21 @@ PANDriver is a deep neural network based method that attempts to distinguish can
 ```
 ---
 
+## Prerequisites: Feature Calculation
+  Before running the models, you must compute features using:
+  scripts/feature_calculation.py
+  This script calculates sequence-, structure-, and network-based features required by the pretrained models.
+
+    Feature Modules / Dependencies
+      The feature generation depends on the following tools/resources:
+        1. protinter (protein interaction / interface-related features): https://github.com/Ax-Sch/protinter 
+        2. AACon (conservation-based features)
+        3. PSSM (position-specific scoring matrix features)
+        4. IUPred2A (disorder prediction features)
+        5. pLDDT (structure confidence features, e.g., AlphaFold)
+        6. biographs (graph/network-based structural features): https://github.com/rodogi/biographs
+    Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM). See below.
+
 ## How to run feature_calculation.py on a sample dataset
 
 python scripts/feature_calculation.py \
