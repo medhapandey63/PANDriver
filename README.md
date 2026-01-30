@@ -34,7 +34,7 @@ PANDriver is a deep neural network based method that attempts to distinguish can
         3. PSSM (position-specific scoring matrix features)
         4. IUPred2A (disorder prediction features)
         5. pLDDT (structure confidence features, e.g., AlphaFold)
-        6. biographs (graph/network-based structural features): https://github.com/rodogi/biographs
+        6. [biographs] (https://github.com/rodogi/biographs) (graph/network-based structural features)
     Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM). See below.
 
 ## How to run feature_calculation.py on a sample dataset
