@@ -14,11 +14,10 @@ To run the pipeline, your dataset should contain:
 
     Feature Modules / Dependencies
       The feature generation depends on the following tools/resources:
-        1. protinter (protein interaction / interface-related features)
-        2. psiCDHit (sequence clustering / homolog processing)
-        3. AACon (conservation-based features)
-        4. PSSM (position-specific scoring matrix features)
-        5. IUPred2A (disorder prediction features)
-        6. pLDDT (structure confidence features, e.g., AlphaFold)
-        7. biographs (graph/network-based structural features)
+        1. protinter (protein interaction / interface-related features): https://github.com/Ax-Sch/protinter 
+        2. AACon (conservation-based features)
+        3. PSSM (position-specific scoring matrix features)
+        4. IUPred2A (disorder prediction features)
+        5. pLDDT (structure confidence features, e.g., AlphaFold)
+        6. biographs (graph/network-based structural features): https://github.com/rodogi/biographs
     Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM). See below.
