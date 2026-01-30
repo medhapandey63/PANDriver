@@ -18,6 +18,9 @@ A deep neural network based method that attempts to distinguish cancer driver fr
 ├── requirements.txt
 └── README.md
 
-
+python scripts/feature_calculation.py \
+  --input data/example_input/mutations.csv \
+  --output data/example_output/features.csv \
+  --structures_dir data/structures/
 
 
