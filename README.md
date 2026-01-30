@@ -19,6 +19,8 @@ PANDriver is a deep neural network based method that attempts to distinguish can
 ├── requirements.txt                # Provides information on the required tools for feature calculation
 └── README.md
 
+---
+
 ## How to run feature_calculation.py on a sample dataset
 python scripts/feature_calculation.py \
   --input data/example_input/mutations.csv \
