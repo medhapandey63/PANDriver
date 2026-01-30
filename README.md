@@ -1,4 +1,4 @@
-# ***PANDriver***
+# **PANDriver**
 
 A deep neural network based method that attempts to distinguish cancer driver from passenger mutations across PAN cancer. It uses associated protein's sequence, AlphaFold predicted structures, network, PSSM, and conservation based features.
 ---
