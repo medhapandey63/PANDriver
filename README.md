@@ -40,8 +40,15 @@ PANDriver is a deep neural network based method that attempts to distinguish can
 ## How to run feature_calculation.py on a sample dataset
 
 python scripts/feature_calculation.py \
-  --input data/example_input/mutations.csv \
-  --output data/example_output/features.csv \
+  --input input_data/input.csv \
+  --output output_data/complete_dataset_with_features.csv \
+  --data_dir data
+
+## How to run run_inference.py on a sample feature set
+
+python run_inference.py \
+  --cancer_type BRCA \
+  --input_csv output_data/complete_dataset_with_features.csv
   
 
 
