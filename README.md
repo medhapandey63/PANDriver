@@ -1,6 +1,6 @@
 # PANDriver
 
-PANDriver is a deep neural network based method that attempts to distinguish cancer driver from passenger mutations across PAN cancer. It uses associated protein's sequence, AlphaFold predicted structures, network, PSSM, and conservation based features. We have developed a webserver PANDriver for the overall usage with the relevant Cancer Census Genes and can be accessed at https://web.iitm.ac.in/bioinfo2/PANDriver/.
+PANDriver is a deep neural network based method that attempts to distinguish cancer driver from passenger mutations across PAN cancer. It uses associated protein's sequence, AlphaFold predicted structures, network, PSSM, and conservation based features. We have developed a webserver PANDriver for the overall usage with the relevant Cancer Census Genes and can be accessed at https://web.iitm.ac.in/bioinfo3/PANDriver/.
 
 ---
 
