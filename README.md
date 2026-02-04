@@ -13,7 +13,7 @@ PANDriver is a deep neural network based method that attempts to distinguish can
 │   ├── BLCA.csv/              # Example input files
 │   └── BRCA.csv/             # Example outputs (optional)
 ├── scripts/
-│   ├── feature_calculation.py      # Main feature engineering pipeline
+│   ├── feature_calculation.ipynb      # Main feature engineering pipeline
 │   ├── run_inference.py            # Run predictions using saved models
 │   └── utils.py                    # Helper functions
 ├── requirements.txt                # Provides information on the required tools for feature calculation
