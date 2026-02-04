@@ -1,0 +1,5 @@
+RES1 , idRES1 , RES2 , idRES2 , dist(Angstrom)
+MET  , 133    , PHE  , 270    , 005.25
+CYS  , 135    , TYR  , 236    , 004.82
+CYS  , 141    , TYR  , 236    , 005.26
+TRP  , 146    , CYS  , 229    , 004.42
