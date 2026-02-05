@@ -10,8 +10,8 @@ PANDriver is a deep neural network based method that attempts to distinguish can
 .
 ├── Models/                         # Saved pretrained models (per cancer type)
 ├── Datasets/
-│   ├── BLCA.csv/              # Example input files
-│   └── BRCA.csv/             # Example outputs (optional)
+│   ├── BLCA.csv/              # Example input files 
+│   └── BRCA.csv/             # (Also contain complete cancer specific datasets)
 ├── scripts/
 │   ├── feature_calculation.ipynb      # Main feature engineering pipeline
 │   ├── run_inference.py            # Run predictions using saved models
