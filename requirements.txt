@@ -20,4 +20,4 @@ To run the pipeline, your dataset should contain:
         4. IUPred2A (disorder prediction features)
         5. pLDDT (structure confidence features, e.g., AlphaFold)
         6. biographs (graph/network-based structural features): https://github.com/rodogi/biographs
-    Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM). See below.
+    Note: Some tools require separate installation and/or external databases (e.g., BLAST databases for PSSM).
